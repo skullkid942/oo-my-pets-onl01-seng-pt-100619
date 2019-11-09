@@ -41,4 +41,8 @@ class Owner
     pets[:cats]
   end 
   
+  def dogs
+    pets[:dogs]
+  end 
+  
 end
