@@ -37,6 +37,10 @@ class Owner
     Dog.all.select {|dog| dog.owner = nil}
   end
   
+  def list_pets
+    return "I have #{owner.dogs.count}dog(s), and #{owner.cats.count} cat(s)."
+  end
+  
   def self.all 
     @@all 
   end
