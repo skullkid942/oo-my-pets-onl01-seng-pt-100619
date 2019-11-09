@@ -19,7 +19,7 @@ class Owner
   end 
   
   def buy_dog(name)
-    dog = Dog.new(name)
+    Dog.new(name,self)
   end 
   
   def self.all 
