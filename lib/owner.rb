@@ -16,7 +16,7 @@ class Owner
   
   def buy_cat(name)
     cat = Cat.new(name)
-     @cats << cat
+    @mood = "happy"
   end 
   
   def buy_dog(name)
