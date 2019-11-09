@@ -23,6 +23,8 @@ class Owner
   end 
   
   def walk_dogs
+    Dog.all
+  end 
   
   def self.all 
     @@all 
