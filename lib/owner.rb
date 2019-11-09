@@ -11,18 +11,18 @@ class Owner
   end
   
   def say_species
-    puts "I am #{@species}."
+    puts "I am a #{@species}."
   end 
   
-  def all 
+  def self.all 
     @@all 
   end
   
-  def count
+  def self.count
     Owner.all.count
   end 
   
-  def reset_all
+  def self.reset_all
     @@all.clear
   end 
   
