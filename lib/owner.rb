@@ -42,7 +42,7 @@ class Owner
   end 
   
   def dogs
-    @pets[:dogs]
+   return @pets[:dogs]
   end 
   
 end
