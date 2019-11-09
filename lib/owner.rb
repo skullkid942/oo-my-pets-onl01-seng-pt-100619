@@ -38,7 +38,7 @@ class Owner
   end
   
   def list_pets
-    return "I have #{self.dogs}dog(s), and #{self.cats} cat(s)."
+    return "I have #{self.dogs.count}dog(s), and #{self.cats.count} cat(s)."
   end
   
   def self.all 
