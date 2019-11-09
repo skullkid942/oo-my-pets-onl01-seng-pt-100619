@@ -15,6 +15,8 @@ class Owner
     return "I am a human."
   end 
   
+  def buy_cat
+  
   def self.all 
     @@all 
   end
